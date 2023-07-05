@@ -1,0 +1,21 @@
+@import '../../utils/_variables.scss';
+
+.VoiceCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+
+    .VoiceCardCelebrity {
+        font-size: 20px;
+        color: $base-theme-medium-blue;
+    }
+
+    .VoiceCardButtons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

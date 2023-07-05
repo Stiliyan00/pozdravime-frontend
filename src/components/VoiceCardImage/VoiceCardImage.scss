@@ -1,0 +1,19 @@
+@import "../../utils/_variables.scss";
+
+.VoiceCardImage {
+    padding: 8px;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    // border: 5px solid;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, $base-theme-medium-blue, $base-theme-orange) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.1)
+    }
+} 

@@ -1,0 +1,24 @@
+@import '../../utils/_variables.scss';
+
+.Button {
+    border: 2px solid ;
+    padding: 12px 14px;
+    border-radius: 6px;
+    box-shadow: none;
+    background: none;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, $base-theme-orange, $base-theme-medium-blue) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        opacity: 0.6;
+        // background: linear-gradient(white, white) padding-box,
+        //  linear-gradient(to right, $base-theme-medium-blue, $base-theme-orange) border-box;
+     
+    }
+}

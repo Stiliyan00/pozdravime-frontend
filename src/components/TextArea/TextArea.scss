@@ -1,0 +1,22 @@
+@import '../../utils/_variables.scss';
+
+.TextArea {
+  label {
+    display: block;
+    margin-bottom: 2px;
+    color: rgb(87, 84, 84);
+  }
+
+  textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 15px;
+  }
+
+  textarea:focus {
+    outline: 1px solid $base-theme-medium-blue;
+  }
+}

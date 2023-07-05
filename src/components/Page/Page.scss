@@ -1,0 +1,18 @@
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+main {
+  min-height: calc(100vh - 170px);
+}
+
+.Page {
+  margin: 50px;
+  height: 100%;
+  animation: fade-in 1s;
+}
