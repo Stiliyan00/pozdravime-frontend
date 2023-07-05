@@ -39,7 +39,7 @@ const CreateGreeting = () => {
   };
 
   const onSubmit = async () => {
-      fetch("http://16.171.17.161:8080/greetings", {
+      fetch("http://16.171.12.70:8080/greetings", {
         method: "POST",
         cache: "no-cache",
         headers: {
